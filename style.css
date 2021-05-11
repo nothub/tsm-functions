@@ -1,0 +1,30 @@
+body {
+    margin: 1em auto;
+    text-align: center;
+    max-width: 35em;
+    font: 1.2em/1.6 sans-serif;
+}
+
+h1, h2 {
+    line-height: 1.2;
+}
+
+.box {
+    background: #eee;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 5px #eee;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+.hl_o {
+    color: darkgoldenrod;
+}
+
+.hl_g {
+    color: green;
+}
+
+.hl_b {
+    color: blue;
+}

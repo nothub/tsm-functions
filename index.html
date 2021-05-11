@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TSM Functions</title>
+    <link href="data:image/png;base64," rel="icon" type="image/png">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>TSM Functions</h1>
+
+<div class="box">
+    <header>
+        <h2>first(n...)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Return</span> first valid <span class="hl_g">n</span>.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>min(n...)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Return</span> lowest <span class="hl_g">n</span>.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>max(n...)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Return</span> highest <span class="hl_g">n</span>.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>avg(n...)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Return</span> average of all valid <span class="hl_g">n</span>.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>ifeq(a, b, x, y)</h2>
+    </header>
+    <p>
+        <span class="hl_b">If</span> <span class="hl_g">a</span> is equal to <span class="hl_g">b</span> <span class="hl_o">return</span> <span class="hl_g">x</span>, <span class="hl_b">else</span> <span class="hl_o">return</span> <span class="hl_g">y</span> <span class="hl_b">or</span> invalid <span class="hl_b">if</span> <span class="hl_g">y</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>ifgt(a, b, x, y)</h2>
+    </header>
+    <p>
+        <span class="hl_b">If</span> <span class="hl_g">a</span> greater than <span class="hl_g">b</span> <span class="hl_o">return</span> <span class="hl_g">x</span>, <span class="hl_b">else</span> <span class="hl_o">return</span> <span class="hl_g">y</span> <span class="hl_b">or</span> invalid <span class="hl_b">if</span> <span class="hl_g">y</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>ifgte(a, b, x, y)</h2>
+    </header>
+    <p>
+        <span class="hl_b">If</span> <span class="hl_g">a</span> greater than or equal to <span class="hl_g">b</span> <span class="hl_o">return</span> <span class="hl_g">x</span>, <span class="hl_b">else</span> <span class="hl_o">return</span> <span class="hl_g">y</span> <span class="hl_b">or</span> invalid <span class="hl_b">if</span> <span class="hl_g">y</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>iflt(a, b, x, y)</h2>
+    </header>
+    <p>
+        <span class="hl_b">If</span> <span class="hl_g">a</span> is less than <span class="hl_g">b</span> <span class="hl_o">return</span> <span class="hl_g">x</span>, <span class="hl_b">else</span> <span class="hl_o">return</span> <span class="hl_g">y</span> <span class="hl_b">or</span> invalid <span class="hl_b">if</span> <span class="hl_g">y</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>iflte(a, b, x, y)</h2>
+    </header>
+    <p>
+        <span class="hl_b">If</span> <span class="hl_g">a</span> is less than or equal to <span class="hl_g">b</span> <span class="hl_o">return</span> <span class="hl_g">x</span>, <span class="hl_b">else</span> <span class="hl_o">return</span> <span class="hl_g">y</span> <span class="hl_b">or</span> invalid <span class="hl_b">if</span> <span class="hl_g">y</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>round(x, f)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Round</span> <span class="hl_g">x</span> to nearest multiple of <span class="hl_g">f</span> <span class="hl_b">or</span> to nearest copper <span class="hl_b">if</span> <span class="hl_g">f</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>roundup(x, f)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Round</span>  <span class="hl_g">x</span> up to nearest multiple of <span class="hl_g">f</span> <span class="hl_b">or</span> to nearest copper <span class="hl_b">if</span> <span class="hl_g">f</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>rounddown(x, f)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Round</span>  <span class="hl_g">x</span> down to nearest multiple of <span class="hl_g">f</span> <span class="hl_b">or</span> to nearest copper <span class="hl_b">if</span> <span class="hl_g">f</span> is not defined.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>convert(x)</h2>
+    </header>
+    <p>
+        <span class="hl_o">Return</span> lowest cost of <span class="hl_g">x</span> by conversion via milling <span class="hl_b">or</span> prospecting <span class="hl_b">or</span> transforming (splitting, combining) <span class="hl_b">or</span> ink vendor prices.
+    </p>
+</div>
+
+<div class="box">
+    <header>
+        <h2>check(a, b, c)</h2>
+    </header>
+    <p>
+        <span class="hl_b">If</span> <span class="hl_g">a</span> is invalid, <span class="hl_o">return</span> invalid. If <span class="hl_g">a</span> is greater than 0 <span class="hl_o">return</span> <span class="hl_g">b</span>. <span class="hl_b">Else</span> <span class="hl_o">return</span> <span class="hl_g">c</span> <span class="hl_b">or</span> invalid <span class="hl_b">if</span> <span class="hl_g">c</span> is not defined.
+    </p>
+</div>
+
+</body>
+</html>
